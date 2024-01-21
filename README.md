@@ -20,16 +20,16 @@ Requirement 2 is the one that I have most issues with, because the lightboxes th
 ```
 3. Add the following html code somewhere on your page (I recommend at the end of the page). This is the placeholder <div> that will render the popup, it is initially invisible.
 ```
-	<!-- Popup -->
-	<div id="image-modal-popup">
-		<div id="image-modal-container">
-			<div id="image-modal-dialog">
-				<img id="image-modal-image" src=""></img>
-				<div id="image-modal-loader"></div>
-				<div id="image-modal-close-button"></div>
-			</div>
+<!-- Popup -->
+<div id="image-modal-popup">
+	<div id="image-modal-container">
+		<div id="image-modal-dialog">
+			<img id="image-modal-image" src=""></img>
+			<div id="image-modal-loader"></div>
+			<div id="image-modal-close-button"></div>
 		</div>
 	</div>
+</div>
 ```
 ## Optional
 1. Replace the <b>loader.gif</b> and <b>close-button.gif</b> in the <b>images</b> folder if you want to modifi them.
