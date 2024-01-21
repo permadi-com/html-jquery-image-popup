@@ -1,8 +1,7 @@
 ## Intro
-This is a relatively simple image "lightbox" popup implementation, using html, jQuery and css. It's relatively compact and straightforward. Only images are supported out-of-the-box, you're welcome to extend it.
-I simply wanted to bel able to click on an image and show a popup containing the image. I tried other lightboxes but found them too complex for my need. 
+This is a relatively simple image "lightbox" popup implementation, using html, jQuery and css. It's relatively compact and straightforward. Only images are supported out-of-the-box (no text, no slideshow), you're welcome to extend it.
 
-My requirements were: 
+I simply wanted to be able to click on an image and show a popup containing the image. I tried other lightboxes but found them too complex for my need. My requirements were: 
 1. The popup should be contained within the browser window. Large image should shright to fit the window while maintaining the aspect-ratio.
 2. The popup should be centered, not only horizontally but also vertically.
 
