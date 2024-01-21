@@ -3,7 +3,7 @@ This is a relatively simple image "lightbox" popup implementation, using html, j
 
 ![alt text](https://permadi.com/html-jquery-image-popup-lightbox/github-readme-images/example3.png)
 
-## Requirements
+## Why Another Lightbox Implementation?
 There are a lot of lightboxes already available, but I didn't find one that worked for my purpose, even though many have a lot more features.
 I just wanted to be able to click on an image and show a popup containing the image, plus 2 other requirements:
 1. The popup should be contained within the browser window. Large image should shrink to fit the popup while maintaining its aspect-ratio.
