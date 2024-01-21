@@ -9,7 +9,7 @@ I just wanted to be able to click on an image and show a popup containing the im
 1. The popup should be contained within the browser window. An image that doesn't fit the browser window, should shrink to fit, while maintaining its aspect-ratio.
 2. The popup should be centered, not only horizontally but also vertically.
 
-Requirement 2 is the one that I have most issues with, because the lightboxes that I found weren't centering vertically. The ones that did, are calculating the position in somewhat complicated manners on the Javascript side. My implementation doesn't calculate position, but lets css handles the centering.
+Requirement 2 is the one that I have most issues with, because the lightboxes that I found weren't centering vertically. The ones that did, are calculating the position and size in somewhat complicated manners on the Javascript side. My implementation doesn't calculate position, but lets css handles the sizing and centering.
 
 ## How to Use
 1. Include <b>image-modal.js</b> and <b>image-modal.css</b>. Note: jQuery use is assumed, otherwise you need to include it.
