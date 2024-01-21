@@ -10,5 +10,18 @@ How to Use
 ```
 <img src="images/300x300.gif" class="image-popup" ></img>
 ```
-4. Replace the images inside the images folder if you don't want to use the defaults.
+3. Add the following html code somewhere on your page (I recommend at the end of the page). This is the placeholder <div> that will render the popup, it is initially invisible.
+```
+	<!-- Popup -->
+	<div id="image-modal-popup">
+		<div id="image-modal-container">
+			<div id="image-modal-dialog">
+				<img id="image-modal-image" src=""></img>
+				<div id="image-modal-loader"></div>
+				<div id="image-modal-close-button"></div>
+			</div>
+		</div>
+	</div>
+```
+5. Replace the images inside the images folder if you don't want to use the defaults.
 
