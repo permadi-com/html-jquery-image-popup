@@ -8,7 +8,7 @@ How to Use
 ```
 3. Add <b>image-popup</b> class to the images that you want the lightbox enabled.
 ```
-<img style="max-width:100%;"src="images/300x300.gif" class="image-popup" ></img>
+<img src="images/300x300.gif" class="image-popup" ></img>
 ```
 4. Replace the images inside the images folder if you don't want to use the defaults.
 
