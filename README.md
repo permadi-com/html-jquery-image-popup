@@ -21,7 +21,7 @@ Requirement 2 is the one that I have most issues with, because the lightboxes th
 ```
 <img src="images/300x300.gif" class="image-popup" ></img>
 ```
-3. Add the following html code somewhere on your page (I recommend at the end of the page). This is the placeholder that will render the popup, it is initially invisible.
+3. Add the following html code somewhere on your page (I recommend at the end of the page). This is the placeholder that will render the popup. It is initially invisible.
 ```
 <!-- Popup -->
 <div id="image-modal-popup">
