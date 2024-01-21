@@ -41,7 +41,7 @@ Requirement 2 is the one that I have most issues with, because the lightboxes th
 ## Demo Page
 https://permadi.com/html-jquery-image-popup-lightbox/
 * Click any of the images to open the image in a popup.
-* * Resize the browser to see how the popup behaves. Even when the popup is already open, the popup should always be centered horizontally and vertically, and the popup should always fit within the brower's vievable area.
+* Resize the browser to see how the popup behaves. Even when the popup is already open, the popup should always be centered horizontally and vertically, and the popup should always fit within the brower's vievable area.
 
 
 ![alt text](https://permadi.com/html-jquery-image-popup-lightbox/github-readme-images/0.png)
