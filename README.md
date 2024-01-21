@@ -1,6 +1,12 @@
-This is a relatively simple image "lightbox" popup implementation, using html, jQuery and css.
+## Intro
+This is a relatively simple image "lightbox" popup implementation, using html, jQuery and css. It's relatively compact and straightforward. Only images are supported out-of-the-box, you're welcome to extend it.
+I simply wanted to bel able to click on an image and show a popup containing the image. I tried other lightboxes but found them too complex for my need. 
+My requirements were: 
+1. The popup should be contained within the browser window. Large image should shright to fit the window while maintaining the aspect-ratio.
+2. The popup should be centered, not only horizontally but also vertically.
+3. Easy to implement.
 
-##How to Use
+## How to Use
 1. Include <b>image-modal.js</b> and <b>image-modal.css</b>. Note: jQuery use is assumed, otherwise you need to include it.
 ```
 <script src="js/image-modal.js"></script>
@@ -23,7 +29,7 @@ This is a relatively simple image "lightbox" popup implementation, using html, j
 		</div>
 	</div>
 ```
-##Optional
+## Optional
 1. Replace the <b>loader.gif</b> and <b>close-button.gif</b> in the <b>images</b> folder if you want to modifi them.
 2. Edit <b>css/style.css</b> styling to your liking. 
 
