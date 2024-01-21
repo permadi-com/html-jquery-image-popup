@@ -1,0 +1,103 @@
+/* The outmost container of the lightbox */
+#image-modal-popup {
+	
+	/* Hide until popup is trigerred to open */
+	display: none;	
+	position: fixed;
+	
+	/* Make sure the popup is in front of everything else, depending on your page's layering, you might need a higher number here */
+	z-index: 100000;
+	
+	/* Set the edges to cover the whole page. Also for centering the image */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	
+	/* A semi transparent background. Set it to any color you like */
+	background-color: #0000008f;
+}
+
+/* Used for centering */
+#image-modal-container
+{
+	position: relative;
+	background-color: transparent;
+
+	padding: 0;
+
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	/* Allow for some padding around the image. Set to 100% if you don't want it. */
+	width: 90%;
+
+}
+
+/* The dialog */
+#image-modal-dialog {
+	position: relative;
+	background-color: transparent;
+
+
+	display:inline-block;
+	transition: all 5s linear;
+	
+}
+
+/* The image */
+#image-modal-image {
+
+	
+	/* This "border" actually serves as the popup dialog background (outline) */
+    border: 15px  solid #1f45ff;
+	
+	/* The second number is twice of border thickness value from above. Set to 0 for no border */
+    max-width: calc(100% - 30px);	
+
+	/* Set to 0 if you don't want rounded border */
+    border-radius: 10px;
+	
+	/* This ensures the height of the popup is within the viewport height */
+    max-height: 95vh;
+	
+	/* Loader image */
+	background: #ccc url(../images/loader.gif) center center no-repeat;
+	
+	/* Alllocate just enough dimensions to fit the loader animation */
+	min-width: 50px;			
+    min-height: 50px;
+}
+
+/* Close button */
+#image-modal-loader {
+	
+	position: absolute;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000 url(../images/loader.gif) center center no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+/* Close button */
+#image-modal-close-button {
+	
+	/* Place the button on the top-right of the popup */
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	
+	/* I am using an image for the button here, but you can just use text if you want to. */
+	background-size: contain;
+	background: url(../images/close-button.gif) no-repeat;
+	width: 50px;
+	height: 50px;
+}
