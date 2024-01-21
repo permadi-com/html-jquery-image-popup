@@ -1,6 +1,6 @@
 This is a relatively simple image "lightbox" popup implementation, using html, jQuery and css.
 
-How to Use
+##How to Use
 1. Include <b>image-modal.js</b> and <b>image-modal.css</b>. Note: jQuery use is assumed, otherwise you need to include it.
 ```
 <script src="js/image-modal.js"></script>
@@ -23,5 +23,7 @@ How to Use
 		</div>
 	</div>
 ```
-5. Replace the images inside the images folder if you don't want to use the defaults.
+##Optional
+1. Replace the <b>loader.gif</b> and <b>close-button.gif</b> in the <b>images</b> folder if you want to modifi them.
+2. Edit <b>css/style.css</b> styling to your liking. 
 
