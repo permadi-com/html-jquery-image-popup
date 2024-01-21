@@ -21,7 +21,7 @@ window.onload = function ()
 		}
 	});
 
-	// Set to false if youy don't want to show loader 
+	// Set to false if you don't want these
 	var waitForImageLoadedEventBeforeDisplaying=true;
 	var fadeInImageEnabled=true;
 
@@ -75,8 +75,8 @@ window.onload = function ()
 		else
 		{
 			// Place the image. If there's a previous image, the popup might noticably show the old image 
-			// while the new image is being loaded (old image with different dimensions might also cause abrupt resizing, that's why
-			// you might want to set "waitForImageLoadedEventBeforeDisplaying" to true. 
+			// while the new image is being loaded. An old image with different dimensions might also cause abrupt resizing, 
+			// to void that, set "waitForImageLoadedEventBeforeDisplaying" to true. 
 			$("#image-modal-image").attr("src",url);
 			$("#image-modal-image").show();
 		}

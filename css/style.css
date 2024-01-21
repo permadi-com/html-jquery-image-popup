@@ -3,7 +3,9 @@
 	/* Hide until popup is trigerred to open */
 	display: none;	
 	position: fixed;
-
+	padding: 0;
+    margin: 0;
+	
 	/* Make sure the popup is in front of everything else, depending on your page's layering, you might need a higher number here */
 	z-index: 100000;
 
@@ -24,6 +26,7 @@
 	background-color: transparent;
 
 	padding: 0;
+    margin: 0;
 
 	text-align: center;
 	top: 50%;
@@ -35,38 +38,53 @@
 
 }
 
+
+
 /* The dialog */
+
 #image-modal-dialog {
 	position: relative;
-	background-color: transparent;
-	display:inline-block;
+    display: inline-block;
+	padding: 0;
+    margin: 0;
+	
+	/* Frame color */
+    background-color: #9b5b5b;
+	
+	/* Frame thickness */
+    padding: 10px;
+	
+	/* Radius of the rounded edges of the frame. Set to 0 for sharp edges */
+    border-radius: 10px;
 }
+
+
 
 /* The image */
-#image-modal-image {
-	/* This "border" actually serves as the popup dialog background (outline) */
-	border: 15px  solid #1f45ff;
 
-	/* The second number is twice of border thickness value from above. Set to 0 for no border */
-	max-width: calc(100% - 30px);	
+#image-modal-image {
+
+	padding: 0;
+    margin: 0;
+	
+	/* This ensures the height of the popup is within the viewport height */	
+	width: 100%;
+		
+	/* This ensures the height of the popup is within the viewport height */
+    max-height: 90vh;
 
 	/* Set to 0 if you don't want rounded border */
-	border-radius: 10px;
-
-	/* This ensures the height of the popup is within the viewport height */
-	max-height: 95vh;
-
-	/* Loader image */
-	background: #ccc url(../images/loader.gif) center center no-repeat;
-
-	/* Alllocate just enough dimensions to fit the loader animation */
-	min-width: 50px;			
-	min-height: 50px;
+    border-radius: 10px;
 }
+
+
 
 /* Loading animation */
 #image-modal-loader {
 	position: absolute;
+	padding: 0;
+    margin: 0;
+	
 	top: 0;
 	bottom: 0;
 	right: 0;
@@ -85,6 +103,9 @@
 	position: absolute;
 	right: -10px;
 	top: -10px;
+	padding: 0;
+    margin: 0;
+
 
 	/* I am using an image for the button here, but you can just use text if you want to. */
 	background-size: contain;
