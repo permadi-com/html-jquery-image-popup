@@ -4,8 +4,8 @@
 	display: none;	
 	position: fixed;
 	padding: 0;
-    margin: 0;
-	
+	margin: 0;
+
 	/* Make sure the popup is in front of everything else, depending on your page's layering, you might need a higher number here */
 	z-index: 100000;
 
@@ -65,16 +65,16 @@
 #image-modal-image {
 
 	padding: 0;
-    margin: 0;
-	
+	margin: 0;
+
 	/* This ensures the height of the popup is within the viewport height */	
 	width: 100%;
 		
 	/* This ensures the height of the popup is within the viewport height */
-    max-height: 90vh;
+	max-height: 90vh;
 
 	/* Set to 0 if you don't want rounded border */
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
 
@@ -83,8 +83,8 @@
 #image-modal-loader {
 	position: absolute;
 	padding: 0;
-    margin: 0;
-	
+	margin: 0;
+
 	top: 0;
 	bottom: 0;
 	right: 0;
