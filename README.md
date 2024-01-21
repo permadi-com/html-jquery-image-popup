@@ -35,3 +35,5 @@ Requirement 2 is the one that I have most issues with, because the lightboxes th
 1. Replace the <b>loader.gif</b> and <b>close-button.gif</b> in the <b>images</b> folder if you want to modifi them.
 2. Edit <b>css/style.css</b> styling to your liking. 
 
+
+![alt text](https://permadi.com/temp/0.png)
