@@ -1,6 +1,8 @@
 ## Intro
 This is a relatively simple image "lightbox" popup implementation, using html, jQuery and css. It's compact and straightforward. Only images (one image per popup open) are supported out-of-the-box. There's no text support and no slideshow, you're welcome to extend it.
 
+![alt text](https://permadi.com/html-jquery-image-popup-lightbox/github-readme-images/example3.png)
+
 ## Requirements
 There are a lot of lightboxes already available, but I didn't find one that worked for my purpose, even though many have a lot more features.
 I just wanted to be able to click on an image and show a popup containing the image, plus 2 other requirements:
@@ -41,5 +43,5 @@ https://permadi.com/html-jquery-image-popup-lightbox/
 * Click any of the images to open the image in a popup.
 * * Resize the browser to see how the popup behaves. Even when the popup is already open, the popup should always be centered horizontally and vertically, and the popup should always fit within the brower's vievable area.
 
-![alt text](https://permadi.com/html-jquery-image-popup-lightbox/github-readme-images/example.png)
+
 ![alt text](https://permadi.com/html-jquery-image-popup-lightbox/github-readme-images/0.png)
