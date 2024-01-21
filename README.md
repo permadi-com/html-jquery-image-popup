@@ -5,6 +5,7 @@ I simply wanted to bel able to click on an image and show a popup containing the
 My requirements were: 
 1. The popup should be contained within the browser window. Large image should shright to fit the window while maintaining the aspect-ratio.
 2. The popup should be centered, not only horizontally but also vertically.
+
 Requirement 2 is the one that I have most issues with, because the lightboxes that I found weren't centering vertically.
 
 ## How to Use
