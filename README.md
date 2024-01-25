@@ -58,7 +58,7 @@ Requirement 2 is the one that I have most issues with, because the lightboxes th
 * Current version of Chrome on Windows, Mac OS, Android and iOS.
 * Current version of Opera on Android and iOS.
 * Current version of Edge on Android and Windows.
-* Current version of Firefox Windows, IOS and Android.
+* Current version of Firefox on Windows, iOS and Android.
 * Current version of Safari on iOS and Mac OS.
 
 
