@@ -66,12 +66,12 @@
 
 	padding: 0;
 	margin: 0;
-
-	/* This ensures the height of the popup is within the viewport height */	
-	width: 100%;
 		
 	/* This ensures the height of the popup is within the viewport height */
-	max-height: 90vh;
+	max-height: 85vh;
+
+	/* So the image doesn't streetch disproportionally on Safari */
+	max-width: 85vw;
 
 	/* Set to 0 if you don't want rounded border */
 	border-radius: 10px;
@@ -89,11 +89,15 @@
 	bottom: 0;
 	right: 0;
 	left: 0;
+	
 	background: #000 url(../images/loader.gif) center center no-repeat;
+	/* set 'background-size' to 'auto' if your loading animation is smaller than the dimensions specified below */
 	background-size: contain;
-	width: 50px;
-	height: 50px;
+	max-width: 100px;
+	max-height: 100px;
 	margin: auto;
+	width: 100px;
+	height: 100px;
 }
 
 /* Close button */
@@ -107,8 +111,8 @@
 
 
 	/* I am using an image for the button here, but you can just use text if you want to. */
-	background-size: contain;
 	background: url(../images/close-button.gif) no-repeat;
+	background-size: contain;
 	width: 50px;
 	height: 50px;
 }
