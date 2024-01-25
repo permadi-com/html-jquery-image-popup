@@ -1,7 +1,7 @@
 ## Intro
 This is a relatively simple image "lightbox" popup implementation, using html, jQuery and css. It's compact and straightforward. Only images (one image per popup open) are supported out-of-the-box. There's no text support and no slideshow, you're welcome to extend it.
 
-![alt text](https://permadi.com/html-jquery-image-popup-lightbox/github-readme-images/example3.png)
+![alt text](https://permadi.com/image-popup/github-readme-images/example3.png)
 
 ## What It Does
 * Allows clicking on an image to open a popup/lightbox that shows the image.
@@ -41,7 +41,7 @@ This is a relatively simple image "lightbox" popup implementation, using html, j
 2. Edit <b>css/style.css</b> styling to your liking. 
 
 ## Demo Page
-https://permadi.com/html-jquery-image-popup-lightbox/
+https://permadi.com/image-popup/
 * Click any of the images to open the image in a popup.
 * Resize the browser to see how the popup behaves. Even when the popup is already open, the popup should always be centered horizontally and vertically, and the popup should always fit within the brower's vievable area.
 * Click the close button or anywhere to close the popup.
@@ -55,11 +55,11 @@ I just wanted to be able to click on an image and show a popup containing the im
 Requirement 2 is the one that I have most issues with, because the lightboxes that I found weren't centering vertically. The ones that did, are calculating the position and size in somewhat complicated manners on the Javascript side, which would overcomplicate any adjustments that I wanted to make. My implementation doesn't calculate position. Instead, it lets css handles the sizing and centering.
 
 ## Tested On
-* Current version of Chrome on my Windows, Mac OS, Android and iOS.
-* Current version of Opera on my Android and iOS.
-* Current version of Edge on my Android and Windows.
-* Current version of Firefox on Windows, IOS and Android.
+* Current version of Chrome on Windows, Mac OS, Android and iOS.
+* Current version of Opera on Android and iOS.
+* Current version of Edge on Android and Windows.
+* Current version of Firefox Windows, IOS and Android.
 * Current version of Safari on iOS and Mac OS.
 
 
-![alt text](https://permadi.com/html-jquery-image-popup-lightbox/github-readme-images/0.png)
+![alt text](https://permadi.com/image-popup/github-readme-images/0.png)
