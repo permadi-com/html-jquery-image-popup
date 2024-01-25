@@ -13,14 +13,6 @@ This is a relatively simple image "lightbox" popup implementation, using html, j
 * Previous/next navigation.
 * Enlarge the image dimensions (image will show at its max dimensions if the image fits the browser window, otherwise, the image will be shrunk to fit the browser window).
 
-## Tested On
-* Current version of Chrome on my Windows, Mac OS, Android and iOS.
-* Current version of Opera on my Android and iOS.
-* Current version of Edge on my Android and Windows.
-* Current version of Firefox on Windows, IOS and Android.
-* Current version of Safari on iOS and Mac OS.
-
-
 ## How to Use
 1. Include <b>image-modal.js</b> and <b>image-modal.css</b>. Note: jQuery use is assumed, otherwise you need to include it.
 ```
@@ -61,5 +53,13 @@ I just wanted to be able to click on an image and show a popup containing the im
 2. The popup should be centered, not only horizontally but also vertically.
 
 Requirement 2 is the one that I have most issues with, because the lightboxes that I found weren't centering vertically. The ones that did, are calculating the position and size in somewhat complicated manners on the Javascript side, which would overcomplicate any adjustments that I wanted to make. My implementation doesn't calculate position. Instead, it lets css handles the sizing and centering.
+
+## Tested On
+* Current version of Chrome on my Windows, Mac OS, Android and iOS.
+* Current version of Opera on my Android and iOS.
+* Current version of Edge on my Android and Windows.
+* Current version of Firefox on Windows, IOS and Android.
+* Current version of Safari on iOS and Mac OS.
+
 
 ![alt text](https://permadi.com/html-jquery-image-popup-lightbox/github-readme-images/0.png)
